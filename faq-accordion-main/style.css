@@ -1,0 +1,47 @@
+.bg-con{
+    background:url(assets/images/background-pattern-desktop.svg) top left 20%, linear-gradient(hsl(275, 100%, 97%),hsl(275, 100%, 97%));
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.card{
+    width:45%;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 20px;
+    padding:20px;
+    
+}
+.flex-con{
+    display: flex;
+    flex-direction: row;
+
+}
+.star{
+    margin-right: 20px;
+}
+.flex-que-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.que{
+    color:hsl(292, 42%, 14%);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.desc{
+    color:hsl(292, 16%, 49%);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    display: none;
+
+}
+.display-con{
+    display: block;
+}
